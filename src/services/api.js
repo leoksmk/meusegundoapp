@@ -8,7 +8,7 @@ const api = axios.create({
   },
 });
 
-// Add request interceptor for logging
+// Add request interceptor for loggingg
 api.interceptors.request.use(
   config => {
     console.log('Fazendo requisição para:', config.url);
